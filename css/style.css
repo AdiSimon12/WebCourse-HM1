@@ -1,0 +1,126 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+header {
+  color: #3E3F43;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 10vh;
+  align-items: center; 
+  
+}
+  header img{
+    width: 4vw;
+    height: 6vh;
+    margin-left: 7vh;
+  }
+  header span{
+    font-size: 3.5vh;
+    margin-right: 30vh;
+    letter-spacing: 0.5em;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    font-size: 2vw;
+  }
+  
+  header nav a {
+    color: #612999;
+    text-decoration: none;
+    
+  }
+  nav a:hover {
+    font-weight: 700;
+  }
+
+  .advertising {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../image/cellcom-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    color: #612999;
+  }
+  .advertising h1{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    margin: 0;
+    font-size: 3.5vw;
+  }
+  .advertising h2{
+    padding-top: 0px;
+    font-size: 1.7vw;
+    padding-left: 40px;
+    margin: 0;
+  }
+  main p{
+    margin: 0;
+  }
+
+  .text-to-right1 {
+    padding-left: 15px;
+  }
+  .text-to-right2 {
+    padding-left: 50px;
+  }
+  .text-to-right3 {
+    padding-left: 55px;
+  }
+  .text-to-right4 {
+    padding-left: 25px;
+  }
+  .bold-text {
+    font-size: 2.4vw;
+    padding-left: 0px;
+  }
+ 
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #EFECFF;
+    color: #333333;
+    padding: 10px;
+
+  }
+  .links {
+    display: flex;
+    padding-left: 30px;
+    font-size: 0.7vw;
+    
+  }
+  .three-links1 {
+    padding-left: 10px;
+    
+  }
+  .three-links2 {
+    padding-left: 50px;
+  }
+  .links a{
+    color: #333333;
+    text-decoration: none;
+  }
+  .icons a{
+    color: #333333;
+    text-decoration: none
+  }
+  
+  
