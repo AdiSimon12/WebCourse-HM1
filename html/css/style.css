@@ -1,0 +1,445 @@
+
+.Wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+.MainHeader{
+  width: 1046px;
+  height: 64px;
+  margin-left: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 122px;
+  display: flex;
+  color: #3E3F43;
+  padding: 0;
+  font-family: 'Nunito';
+}
+.WebIcone{
+  width: 252px;
+  height: 64px;
+  margin-right: 135px;
+  display: flex;
+  align-items: center;
+
+}
+.WebIcone img{
+    width: 64px;
+    height: 64px;
+    
+}
+.WebIcone h1{
+    font-size: 24px;
+    letter-spacing: 6px;  
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 62px;
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin-top: 16px;
+}
+header nav a {
+  color: #612999;
+  text-decoration: none;  
+}
+nav a:hover {
+  font-weight: 700;
+}
+.advertising {
+  width: 1200px;
+  height: 797px;
+  background-image: url("../image/cellcom-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+  margin: 0;
+  color: #612999;
+}
+.FontAdvertising{
+    width: 448px;
+    height: 230px;
+    margin-left: 32px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .FontAdvertising h1{
+    width: 448px;
+    height: 131px;
+    margin: 0px;
+    margin-left: 4px; 
+    padding: 0px;
+    font-size: 96px;
+    line-height: 131px; 
+    font-family: 'Nunito';
+    font-weight: 700;
+    color:#612999;
+  }
+  .FontAdvertising h2{
+    width: 448px;
+    height: 99px;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    color: #000000;   
+  }
+  main{
+    padding-bottom: 287px;
+    
+  }
+  main p{
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Nunito';
+  }
+ 
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 1200px;
+    height: 287px;
+    background-color: #EFECFF;
+    color: #333333;
+    
+
+  }
+  .links {
+    display: flex;
+    padding-top: 32px;
+    width: 1200px;
+    height: 126px;
+  }
+  .three-links1 {
+    margin-left: 32px;
+    margin-right: 150px;
+    width: 126px;
+    height: 126px;
+    font-family: 'Nunito';
+
+  }
+  .three-links1 a, h1 {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    line-height: 2;
+    font-size: 16px;
+
+    }
+    .three-links1 h1 {
+      font-size: 18px;
+      }
+  .three-links2 {
+    width: 126px;
+    height: 126px;
+    font-family: 'Nunito';
+  }
+  .three-links2 a{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    line-height: 2;
+    font-size: 16px;
+  }
+  .three-links2 h1 {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: bold;
+    }
+  .links a{
+    color: #333333;
+    text-decoration: none;
+    font-weight: normal;
+
+  }
+  .icons{
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .icons a img{
+    margin-left: 24px;
+    
+  }
+  
+  .icon-twitter {
+    width: 24.62px;
+    height: 20px;
+  }
+  
+  .icon-facebook {
+    width: 20px;
+    height: 18.88px;
+  }
+  
+  .icon-instagram {
+    width: 20px;
+    height: 20px;
+  }
+  .icons p{
+    margin: 0;
+  }
+  .Copyright h1{
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 24px;
+    font-family: 'Nunito';
+
+  }
+  .About{
+    width: 1136px;
+    height: 382px;
+    margin-top: 32px;
+    margin-left: 32px;
+  }
+  .About-title{
+    margin: 0px;
+    padding: 0px;
+    }
+.About-title h1{
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+  color: #612999;
+}
+.About-content{
+  margin-top: 32px;
+}
+.About-content h2{
+  font-size: 20px;
+  line-height: 1.15;
+  font-weight: normal;
+  font-family: 'Rubik';
+}
+.Products{
+  width: 784px;
+  height: 1096px;
+  margin-bottom: 246px;
+}
+.Title-Products{
+  font-size: 40px;
+  color: #612999;
+  font-family: 'Rubik';
+  margin-top: 32px;
+  margin-left: 32px;
+ 
+}
+.Items-Products{
+  width: 784px;
+  height: 1024px;
+  margin-left: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  column-gap: 32px;
+
+}
+.Product1{
+  background-color: #EFECFF;
+  width: 376px;
+  height: 496px;
+  border-radius: 38px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.Product1-display{
+  background-image: url("../image/iphones.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 376px;
+  height: 276px;
+  border-radius: 38px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Product1 h1{
+  font-family: 'Abel';
+  font-size: 30px;
+  padding: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+.Product1 h2{
+  font-family: 'Abel';
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+
+.Product2{
+  background-color: #EFECFF;
+  width: 376px;
+  height: 496px;
+  border-radius: 38px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Product2-display{
+  background-image: url("../image/samsong.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 376px;
+  height: 276px;
+  border-radius: 38px;
+  margin: 0px;
+  padding: 0px;
+}
+.Product2 h1{
+  font-family: 'Abel';
+  font-size: 30px;
+  padding: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+.Product2 h2{
+  font-family: 'Abel';
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+
+.Product3{
+  background-color: #EFECFF;
+  width: 376px;
+  height: 496px;
+  border-radius: 38px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Product3-display{
+  background-image: url("../image/computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 376px;
+  height: 276px;
+  border-radius: 38px;
+  margin: 0px;
+  padding: 0px;
+}
+.Product3 h1{
+  font-family: 'Abel';
+  font-size: 30px;
+  padding: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+.Product3 h2{
+  font-family: 'Abel';
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+
+.Product4{
+  background-color: #EFECFF;
+  width: 376px;
+  height: 496px;
+  border-radius: 38px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.Product4-display{
+    background-image: url("../image/TV.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 376px;
+  height: 276px;
+  border-radius: 38px;
+  margin: 0px;
+  padding: 0px;
+}
+.Product4 h1{
+  font-family: 'Abel';
+  font-size: 30px;
+  padding: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+.Product4 h2{
+  font-family: 'Abel';
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  margin-left: 32px;
+  font-weight: normal;
+}
+.elipse-heart{
+  width: 47px;
+  height: 47px;
+  margin-left: 287px;
+  margin-top: 35px;
+  background-image: url("../image/Ellipse-heart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elipse-heart img{
+  width: 23px;
+  height: 20px;
+  margin-left: 12px;
+  margin-top: 14px;
+}
+.price-line{
+  display: flex;
+  width: 376px;
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 36px;
+  margin-left: 32px;
+  align-items: center; 
+}
+.elipse-cart{
+  width: 63px;
+  height: 63px;
+  background-image: url("../image/Ellipse-cart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elipse-cart img{
+  width: 31px;
+  height: 31px;
+  margin-left: 16px;
+  margin-top: 14px;
+}
+.price-line h3{
+  font-family: 'Abel';
+  font-size: 35px;
+  padding: 0px;
+  margin: 0px;
+  color: #612999;
+  font-weight: normal;
+  margin-right: 94px;
+  width: 136px;
+  height: 45px
+}
+
+  
+  
+  
