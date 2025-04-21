@@ -9,11 +9,9 @@
   margin-left: 32px;
   margin-top: 32px;
   margin-bottom: 32px;
-  margin-right: 122px;
   display: flex;
   color: #3E3F43;
   padding: 0;
-  font-family: 'Nunito';
   align-items: center;
 }
 .WebIcone{
@@ -22,16 +20,12 @@
   margin-right: 135px;
   display: flex;
   align-items: center;
+}
 
-}
-.WebIcone img{
-    width: 64px;
-    height: 64px;
-    
-}
 .WebIcone h1{
     font-size: 24px;
     letter-spacing: 6px;  
+    font-family: 'Nunito';
 }
 nav ul {
     list-style: none;
@@ -40,6 +34,7 @@ nav ul {
     gap: 62px;
     font-size: 30px;
     letter-spacing: 0px;
+    font-family: 'Nunito';
 }
 header nav a {
   color: #612999;
@@ -57,32 +52,32 @@ nav a:hover {
   color: #612999;
 }
 .FontAdvertising{
-    width: 448px;
-    height: 230px;
-    margin-left: 32px;
-    margin-top: 0px;
-    margin-bottom: 0;
-    margin-right: 0;
-  }
-  .FontAdvertising h1{
-    width: 448px;
-    height: 131px;
-    margin: 0px;
-    margin-left: 4px; 
-    padding: 0px;
-    font-size: 96px;
-    line-height: 131px; 
-    font-family: 'Nunito';
-    font-weight: 700;
-    color:#612999;
+  width: 448px;
+  height: 230px;
+  margin-left: 32px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.FontAdvertising h1{
+  width: 448px;
+  height: 131px;
+  margin: 0px;
+  margin-left: 4px; 
+  padding: 0px;
+  font-size: 96px;
+  line-height: 131px; 
+  font-family: 'Nunito';
+  font-weight: 800;
+  color:#612999;
   }
   .FontAdvertising h2{
-    width: 448px;
-    height: 99px;
     font-size: 24px;
+    font-weight: 600;
     padding: 0px;
     margin: 0px;
-    color: #000000;   
+    color: #000000; 
+    font-family: 'Nunito';  
   }
   main{
     padding-bottom: 287px;    
@@ -185,17 +180,20 @@ nav a:hover {
   font-size: 40px;
   margin: 0px;
   padding: 0px;
-  line-height: 1;
+  line-height: 40px;
   color: #612999;
+  font-weight: 500;
+  font-family: 'Rubik';
+
 }
 .About-content{
   margin-top: 32px;
 }
 .About-content h2{
   font-size: 20px;
-  line-height: 1.15;
   font-weight: normal;
   font-family: 'Rubik';
+  font-weight: 400;
 }
 .Products{
   width: 784px;
@@ -220,7 +218,7 @@ nav a:hover {
   margin-bottom: 246px;
   
 }
-.Product1{
+.Product{
   background-color: #EFECFF;
   width: 376px;
   height: 496px;
@@ -231,7 +229,7 @@ nav a:hover {
   position: relative;
 
 }
-.Product1-display{
+.Product-display-iphones{
   background-image: url("../image/iphones.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -242,7 +240,7 @@ nav a:hover {
   padding: 0px;
 }
 
-.Product1 h1{
+.Product h1{
   font-family: 'Abel';
   font-size: 30px;
   padding: 0px;
@@ -250,7 +248,7 @@ nav a:hover {
   margin-left: 32px;
   font-weight: normal;
 }
-.Product1 h2{
+.Product h2{
   font-family: 'Abel';
   font-size: 18px;
   padding: 0px;
@@ -260,16 +258,8 @@ nav a:hover {
   font-weight: normal;
 }
 
-.Product2{
-  background-color: #EFECFF;
-  width: 376px;
-  height: 496px;
-  border-radius: 38px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.Product2-display{
+
+.Product-display-galaxy{
   background-image: url("../image/galaxy.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -279,34 +269,9 @@ nav a:hover {
   margin: 0px;
   padding: 0px;
 }
-.Product2 h1{
-  font-family: 'Abel';
-  font-size: 30px;
-  padding: 0px;
-  color: #000000;
-  margin-left: 32px;
-  font-weight: normal;
-}
-.Product2 h2{
-  font-family: 'Abel';
-  font-size: 18px;
-  padding: 0px;
-  margin: 0px;
-  color: #000000;
-  margin-left: 32px;
-  font-weight: normal;
-}
 
-.Product3{
-  background-color: #EFECFF;
-  width: 376px;
-  height: 496px;
-  border-radius: 38px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.Product3-display{
+
+.Product-display-computer{
   background-image: url("../image/computer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -316,35 +281,8 @@ nav a:hover {
   margin: 0px;
   padding: 0px;
 }
-.Product3 h1{
-  font-family: 'Abel';
-  font-size: 30px;
-  padding: 0px;
-  color: #000000;
-  margin-left: 32px;
-  font-weight: normal;
-}
-.Product3 h2{
-  font-family: 'Abel';
-  font-size: 18px;
-  padding: 0px;
-  margin: 0px;
-  color: #000000;
-  margin-left: 32px;
-  font-weight: normal;
-}
 
-.Product4{
-  background-color: #EFECFF;
-  width: 376px;
-  height: 496px;
-  border-radius: 38px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-
-}
-.Product4-display{
+.Product-display-TV{
     background-image: url("../image/TV.jpeg");
     background-repeat: no-repeat;
   background-size: cover;
@@ -353,23 +291,6 @@ nav a:hover {
   border-radius: 38px;
   margin: 0px;
   padding: 0px;
-}
-.Product4 h1{
-  font-family: 'Abel';
-  font-size: 30px;
-  padding: 0px;
-  color: #000000;
-  margin-left: 32px;
-  font-weight: normal;
-}
-.Product4 h2{
-  font-family: 'Abel';
-  font-size: 18px;
-  padding: 0px;
-  margin: 0px;
-  color: #000000;
-  margin-left: 32px;
-  font-weight: normal;
 }
 .elipse-heart{
   width: 47px;
