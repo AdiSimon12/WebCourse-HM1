@@ -11,7 +11,6 @@
     margin-bottom: 32px;
     margin-right: 122px;
     display: flex;
-    color: #3E3F43;
     padding: 0;
     font-family: 'Nunito';
     align-items: center;
@@ -22,16 +21,18 @@
     margin-right: 135px;
     display: flex;
     align-items: center;
-  
   }
   .WebIcone img{
       width: 64px;
       height: 64px;
-      
   }
   .WebIcone h1{
       font-size: 24px;
       letter-spacing: 6px;  
+      color: #3E3F43;
+  }
+  .bold{
+    font-weight: 700;
   }
   nav ul {
       list-style: none;
@@ -48,7 +49,10 @@
   nav a:hover {
     font-weight: 700;
   }
-    footer {
+  main{
+    padding-bottom: 287px;    
+  }
+  footer {
       position: fixed;
       bottom: 0;
       width: 1200px;
@@ -122,7 +126,92 @@
       font-weight: normal;
       margin-left: 24px;
       font-family: 'Nunito';
-  
     }
+    .three-img{
+      width: 1052px;
+      height: 300px;
+      display: flex;
+      margin-top: 32px;
+      margin-left: 32px;
+      gap: 32px;
+    }
+    .three-img img{
+      width: 300px;
+      height: 300px;
+      border: 3px solid purple;
+      
+    }
+    .list-iphone-color ul{
+      padding: 0px;
+    }
+    .list-iphone-color ul li{
+      list-style: none;
+      padding: 0;
+      font-size: 30px;
+      letter-spacing: 0px;
+      font-family: 'Nunito';
+      display: flex;
+      margin-top: 32px;
+      align-items: center;
+    }
+    .roket-elipse{
+      width: 82px;
+      height: 82px;
+      background-color: #612999;
+      border-radius: 46.5px;
+      margin-right: 16px;
+    }
+    .roket-elipse img{
+      margin-top: 20px;
+      margin-left: 26px;
+    }
+    .list-iphone-color{
+      width: 346px;
+      height: 448px;
+      margin-top: 32px;
+      margin-left: 32px;
+    }
+    .list-iphone-color h1{
+      margin: 0px;
+      padding: 0px;
+      font-size: 40px;
+      line-height:40px; 
+      font-family: 'Rubik';
+      font-weight: 500;
+      color:#612999;
+      letter-spacing: 0px;
+      }
+      .list-iphone-color h2{
+        margin: 0px;
+        padding: 0px;
+        font-size: 24px;
+        line-height:14px; 
+        font-family: 'Rubik';
+        font-weight: 400;
+        color:#000000;
+        letter-spacing: 0px;
+      }
+      .choose-container{
+        width: 1136px;
+        height: 575px;
+        margin-bottom: 198px;
+      }
+      .choose-container h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 40px;
+        line-height:40px; 
+        font-family: 'Rubik';
+        font-weight: 500;
+        color:#612999;
+        letter-spacing: 0px;
+      }
+      .choose-box{
+        width: 1136px;
+        height: 503px;
+        margin-top: 32px;
+        background-color: #EFECFF;
+      }
+ 
     
   

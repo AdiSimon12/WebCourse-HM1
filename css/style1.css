@@ -10,7 +10,6 @@
   margin-top: 32px;
   margin-bottom: 32px;
   display: flex;
-  color: #3E3F43;
   padding: 0;
   align-items: center;
 }
@@ -26,6 +25,12 @@
     font-size: 24px;
     letter-spacing: 6px;  
     font-family: 'Nunito';
+    color: #3E3F43;
+
+}
+.WebIcone img{
+  width: 64px;
+  height: 64px;
 }
 nav ul {
     list-style: none;
@@ -40,8 +45,11 @@ header nav a {
   color: #612999;
   text-decoration: none;  
 }
-nav a:hover {
+.bold{
   font-weight: 700;
+}
+nav a:hover {
+  color: #a067d9;
 }
 .advertising {
   width: 1200px;
@@ -205,7 +213,7 @@ nav a:hover {
   font-family: 'Rubik';
   margin-top: 32px;
   margin-left: 32px;
- 
+  font-weight: 500;
 }
 .Items-Products{
   width: 784px;
