@@ -1,9 +1,14 @@
+body{
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;}
 .Wrapper{
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
-.Header{
-  width: 1046px;
+Header{
+  width: 87%;
   height: 64px;
   margin-left: 32px;
   margin-top: 32px;
@@ -55,10 +60,11 @@ nav a:hover {
   color: #a067d9;
 }
 .advertising {
-  width: 1200px;
+  width: 100%;
   height: 797px;
-  background-image: url("../image/background-cellcom.png");
+  background-image: url("../image/background-cellcom.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   color: #612999;
 }
@@ -91,7 +97,10 @@ nav a:hover {
     font-family: 'Nunito';  
 }
 main{
-    padding-bottom: 287px;    
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 0;
+  margin: 0;
 }
 main p{
     margin: 0;
@@ -159,9 +168,10 @@ footer {
 .icons{
     margin-top: 24px;
     margin-bottom: 16px;
+    margin-left: 32PX;
 }
 .icons a img{
-    margin-left: 24px;
+    margin-right: 24px;
     
 }
   
@@ -202,10 +212,7 @@ footer {
   font-family: 'Rubik';
   font-weight: 400;
 }
-.Products{
-  width: 784px;
-  margin-bottom: 246px;
-}
+
 .Title-Products{
   font-size: 40px;
   color: #612999;
@@ -214,15 +221,16 @@ footer {
   margin-left: 32px;
   font-weight: 500;
 }
-.Items-Products{
-  width: 784px;
+.Items-Products {
+  width: 100%;
   height: auto;
-  margin-left: 32px;
+  gap: 32px;
+  margin-bottom: 287px;
+  padding-bottom: 246px; 
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
-  column-gap: 32px;
-  margin-bottom: 246px;
+  flex: 0 0 376px;
+  justify-content: center; /* מרכז את הפריטים בציר האופקי */
 }
 .Product{
   background-color: #EFECFF;
@@ -234,8 +242,13 @@ footer {
   flex-direction: column;
   position: relative;
 }
+
+
+
+
+
 .Product-display-iphones{
-  background-image: url("../image/iphones.jpeg");
+  background-image: url("../image/iphones.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 376px;
@@ -262,7 +275,7 @@ footer {
   font-weight: normal;
 }
 .Product-display-galaxy{
-  background-image: url("../image/galaxy.jpeg");
+  background-image: url("../image/galaxy.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 376px;
@@ -272,7 +285,7 @@ footer {
   padding: 0px;
 }
 .Product-display-computer{
-  background-image: url("../image/computer.jpg");
+  background-image: url("../image/computer.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 376px;
@@ -282,7 +295,7 @@ footer {
   padding: 0px;
 }
 .Product-display-TV{
-  background-image: url("../image/TV.jpeg");
+  background-image: url("../image/TV.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 376px;
@@ -296,7 +309,7 @@ footer {
   height: 47px;
   margin-left: 287px;
   margin-top: 35px;
-  background-image: url("../image/Ellipse-heart.png");
+  background-image: url("../image/Ellipse-heart.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -317,7 +330,7 @@ footer {
 .elipse-cart{
   width: 63px;
   height: 63px;
-  background-image: url("../image/Ellipse-cart.png");
+  background-image: url("../image/Ellipse-cart.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -336,4 +349,3 @@ footer {
   width: 136px;
   height: 45px
 }
-
