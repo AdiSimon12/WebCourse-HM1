@@ -11,7 +11,9 @@ body {
 header {
   width: 87%;
   height: 64px;
-  margin: 32px auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 32px;
   display: flex;
   align-items: center;
   color: #612999;
@@ -63,7 +65,7 @@ nav a:hover {
 .advertising {
   width: 100%;
   height: 797px;
-  background-image: url("../image/background-cellcom.svg");
+  background-image: url("../image/background-cellcom.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -74,10 +76,9 @@ nav a:hover {
   width: 448px;
   height: 230px;
   margin-left: 32px;
+  padding-top: 32px;
 }
 .FontAdvertising h1 {
-  width: 448px;
-  height: 131px;
   margin: 0;
   padding: 0;
   font-size: 96px;
@@ -104,7 +105,6 @@ main p {
   font-family: 'Nunito';
 }
 footer {
-  bottom: 0;
   width: 100%;
   height: 287px;
   background-color: #EFECFF;
@@ -151,11 +151,12 @@ footer {
 .icons p {
   margin: 0;
 }
-.Copyright h1 {
+.Copyright p {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 600;
   margin-left: 32px;
   font-family: 'Nunito';
+
 }
 .About {
   width: 1136px;
@@ -197,7 +198,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 32px;
-  margin-bottom: 246px;
+  margin-bottom: 32px;
 }
 .Product {
   width: 376px;
@@ -219,16 +220,16 @@ footer {
   padding: 0;
 }
 .Product-display-iphones {
-  background-image: url("../image/iphones.svg");
+  background-image: url("../image/iphones.jpeg");
 }
 .Product-display-galaxy {
-  background-image: url("../image/galaxy.svg");
+  background-image: url("../image/galaxy.jpeg");
 }
 .Product-display-computer {
-  background-image: url("../image/computer.svg");
+  background-image: url("../image/computer.jpg");
 }
 .Product-display-TV {
-  background-image: url("../image/TV.svg");
+  background-image: url("../image/TV.jpeg");
 }
 .Product h2 {
   font-family: 'Abel';
@@ -302,8 +303,6 @@ footer {
   gap: 32px;
 }
 .three-img img {
-  width: 300px;
-  height: 300px;
   border: 4px solid #E6DBFE;
 }
 .list-iphone-color {
